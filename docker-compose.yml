@@ -1,0 +1,6 @@
+pdfreactor:
+  image: hub.gassmann.it/pdfreactor
+  cpuset: 0,1,2,3
+  ports:
+    - "9423:9423"
+ 
