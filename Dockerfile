@@ -1,9 +1,9 @@
 FROM ubuntu:15.10
 
-RUN apt-get -y install wget vim && \ 
+RUN apt-get update && apt-get -y install wget vim && \ 
 mkdir /app && \
 cd /app && \
-wget "http://www.pdfreactor.com/download/get/?product=pdfreactor&type=unix-x64&jre=true" -O pdfreactor.tgz && \
+wget "http://www.pdfreactor.com/download/get/?product=pdfreactor&type=unix-x64_installer&jre=true" -O pdfreactor.tgz && \
 tar -xzf pdfreactor.tgz && \
 rm pdfreactor.tgz  
 
