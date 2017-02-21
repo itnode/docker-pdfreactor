@@ -8,7 +8,4 @@ docker-compose up -d
 
 # Network
 
-pdfreactor is listing on port 9423
-
-
-
+pdfreactor is listening on port 9423
